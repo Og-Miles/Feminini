@@ -1,5 +1,5 @@
 [package]
-name = "contracts"
+name = "feminini-contract"
 version = "0.1.0"
 edition = "2024"
 
@@ -8,3 +8,6 @@ soroban-sdk = "20.3.0"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
+
+[dev-dependencies]
+soroban-sdk = { version = "20.3.0", features = ["testutils"] }
