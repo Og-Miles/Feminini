@@ -1,49 +1,57 @@
 # 🛍️ Feminini — Web3 eCommerce Powered by Stellar
 
-**Feminini** is a decentralized eCommerce platform built on the **Starknet network**. It enables blockchain-native payments, automated order handling, and tokenized loyalty rewards through **Cairo smart contracts**.
-
-Designed to empower modern merchants and conscious consumers with fast, secure, and transparent transactions.
+**Feminini** is a decentralized **eCommerce platform** built on the **Stellar Network**.  
+It enables blockchain-native payments, automated order handling, and tokenized loyalty rewards through **Soroban smart contracts**.  
+Designed to empower modern merchants and conscious consumers with **fast, secure, and transparent transactions**.  
 
 ---
 
 ## ✨ Features
 
-- **Blockchain Payments**  
-  Accept Starknet tokens directly from your customers.
-- **Smart Contract Logic (Cairo)**  
-  Automate:
+### 🪙 Blockchain Payments  
+- Accept **XLM** and Stellar-based tokens directly from your customers.  
+- Leverage Stellar’s fast and low-cost payments system.  
 
-  - Order fulfillment
-  - Refunds and disputes
-  - Loyalty rewards issuance
+### ⚖️ Smart Contract Logic (Soroban)  
+Automate:  
+- Order fulfillment  
+- Refunds and disputes  
+- Loyalty rewards issuance  
 
-- **Loyalty on the Ledger**  
-  Feminini lets merchants issue branded tokens to reward customer engagement.
+### 🎁 Loyalty on the Ledger  
+- Merchants can issue **branded tokens** to reward customer engagement.  
+- Tokenized loyalty points tradable within the Stellar ecosystem.  
 
-- **Modern UI & Dev Stack**  
-  React frontend, Node.js backend, Docker + Kubernetes for production-ready scalability.
+### 🖥 Modern UI & Dev Stack  
+- **React / Next.js** frontend  
+- **Node.js / NestJS** backend  
+- **Docker + Kubernetes** for production-ready scalability  
 
 ---
 
-## 🔗 Built on Sarknet
+## 🔗 Built on Stellar
 
-- **Smart Contracts**: [Cairo]
-- **Wallet Integration**: [Argent]
-- **Starknet Network**: Fast, low-cost blockchain optimized for financial applications
+- **Smart Contracts**: [Soroban (Stellar smart contracts)](https://soroban.stellar.org/)  
+- **Wallet Integration**: Freighter Wallet  
+- **Stellar Network**: Fast, low-cost, eco-friendly blockchain optimized for financial applications  
 
 ---
 
 ## 🛠 Tech Stack
 
-| Layer          | Tech Used               |
-| -------------- | ----------------------- |
-| Contracts      | Cairo                   |
-| Frontend       | Next                    |
-| Backend        | Node.js                 |
-| Infrastructure | Docker, Kubernetes, AWS |
-| Payments       | starknet                |
+| Layer          | Tech Used                          |
+|----------------|------------------------------------|
+| Contracts      | Soroban (Rust-based smart contracts) |
+| Frontend       | Next.js / React                    |
+| Backend        | Node.js / NestJS                   |
+| Infrastructure | Docker, Kubernetes, AWS            |
+| Payments       | Stellar (XLM + Stellar tokens)     |
 
 ---
+
+### 🎯 Vision
+Feminini redefines **eCommerce on Stellar** by enabling blockchain-native payments, tokenized loyalty, and transparent transactions.  
+It creates a digital marketplace where merchants and consumers interact **without intermediaries** and with **trust built on the ledger**.  
 
 ## ⚙️ Getting Started
 
